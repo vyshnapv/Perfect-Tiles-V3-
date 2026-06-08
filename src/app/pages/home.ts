@@ -356,7 +356,7 @@ export class HomeComponent {
     {
       title: 'Custom Ceramic Mosaic',
       category: 'Accent Walls',
-      image: 'https://images.unsplash.com/photo-1502005229762-fc1b2b812ca5?q=80&w=600',
+      image: 'https://source.unsplash.com/VQjKs7Piyz8?w=800',
       desc: 'Intricate glazed structures with artistic layouts. Highly resistant to water, ideal for kitchen backsplashes and bathroom highlight bands.',
       spec: 'Tile size: 300x300mm'
     },
