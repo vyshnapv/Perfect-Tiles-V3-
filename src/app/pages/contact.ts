@@ -21,11 +21,11 @@ import { ReactiveFormsModule, FormGroup, FormControl, Validators } from '@angula
 
       <!-- SPLIT LAYOUT -->
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-stretch">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
           <!-- LEFT SCREEN: REACTIVE CONTACT FORM -->
-          <div class="lg:col-span-7 bg-white rounded-lg border border-slate-200 shadow-xl p-8 sm:p-12 flex flex-col justify-between">
-            <div class="space-y-2 mb-8">
+          <div class="lg:col-span-7 bg-white rounded-lg border border-slate-200 shadow-xl p-6 sm:p-8 flex flex-col justify-between">
+            <div class="space-y-2 mb-6">
               <h3 class="text-2xl font-serif font-bold text-slate-900">Inquiry Sheet</h3>
               <p class="text-xs text-slate-500 font-light">
                 Fill in the details below. Our technical estimator will review your dimensions and get in touch with you.
@@ -146,8 +146,8 @@ import { ReactiveFormsModule, FormGroup, FormControl, Validators } from '@angula
                   <div>
                     <h4 class="text-xs font-semibold text-slate-400 uppercase">Call to Inquire</h4>
                     <p class="mt-1">
-                      <a href="tel:08460204779" class="text-lg font-bold text-gold-400 hover:text-gold-300 transition-colors">
-                        08460204779
+                      <a href="tel:9207045332" class="text-lg font-bold text-gold-400 hover:text-gold-300 transition-colors">
+                        9207045332
                       </a>
                     </p>
                   </div>
@@ -162,7 +162,7 @@ import { ReactiveFormsModule, FormGroup, FormControl, Validators } from '@angula
                   </div>
                   <div class="flex-grow">
                     <h4 class="text-xs font-semibold text-slate-400 uppercase mb-2">Direct Message</h4>
-                    <a href="https://wa.me/918460204779" target="_blank" rel="noopener noreferrer"
+                    <a href="https://wa.me/9207045332" target="_blank" rel="noopener noreferrer"
                        class="inline-flex items-center space-x-2 px-4 py-2 bg-emerald-500 hover:bg-emerald-600 text-white text-xs font-bold uppercase tracking-wider rounded transition-colors duration-300">
                       <span>Chat on WhatsApp</span>
                     </a>
@@ -173,34 +173,16 @@ import { ReactiveFormsModule, FormGroup, FormControl, Validators } from '@angula
             </div>
 
             <!-- Stylized Interactive Map Placeholder -->
-            <div class="relative w-full aspect-video rounded-lg overflow-hidden border border-slate-200 shadow-md bg-white flex flex-col justify-between">
-              <!-- Map Background Mocking Kozhikode Coordinates -->
-              <div class="absolute inset-0 bg-slate-100 flex items-center justify-center p-6 text-center select-none pointer-events-none">
-                <!-- Stretched custom paths layout mocking local maps -->
-                <div class="absolute inset-0 opacity-15 overflow-hidden">
-                  <div class="absolute w-[800px] h-[2px] bg-slate-900 rotate-12 top-12 left-0"></div>
-                  <div class="absolute w-[800px] h-[2px] bg-slate-900 -rotate-45 top-24 left-0"></div>
-                  <div class="absolute w-[800px] h-[3px] bg-slate-900 rotate-90 left-[40%] top-0"></div>
-                  <div class="absolute w-[800px] h-[2px] bg-slate-900 top-1/2 left-0"></div>
-                  <!-- River Calicut mock -->
-                  <div class="absolute inset-x-0 bottom-4 h-8 bg-blue-500/20 rounded-full blur"></div>
-                </div>
-
-                <div class="relative z-10 space-y-2">
-                  <!-- Red Pin Icon -->
-                  <div class="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center border-4 border-white shadow-lg mx-auto animate-bounce">
-                    <svg class="w-5 h-5 text-white stroke-current fill-none stroke-2" viewBox="0 0 24 24">
-                      <path d="M12 2a8 8 0 00-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 00-8-8z"/>
-                    </svg>
-                  </div>
-                  <h4 class="font-serif font-bold text-slate-800 text-sm">Perfect Tile Works</h4>
-                  <p class="text-[10px] text-slate-500 leading-tight">Pavamani Rd, Puthiyara, Calicut.<br>Next to Baby Memorial Hospital</p>
-                </div>
-              </div>
-
-              <!-- Map Overlay Trigger -->
-              <a href="https://maps.google.com/?q=Baby+Memorial+Hospital+Pavamani+Road+Puthiyara+Kozhikode" target="_blank" rel="noopener noreferrer"
-                 class="relative z-10 m-3 px-4 py-2 bg-slate-900/90 text-gold-400 border border-white/10 hover:bg-gold-500 hover:text-slate-950 text-[10px] font-bold tracking-wider uppercase rounded shadow text-center transition-colors">
+            <div class="relative w-full aspect-video rounded-lg overflow-hidden border border-slate-200 shadow-md">
+              <iframe
+                src="https://www.google.com/maps?q=11.2565147,75.7920158&output=embed"
+                class="w-full h-full"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen>
+              </iframe>
+              <a href="https://www.google.com/maps/place/11%C2%B015'23.5%22N+75%C2%B047'32.0%22E" target="_blank" rel="noopener noreferrer"
+                 class="absolute bottom-2 right-2 bg-slate-900/90 text-gold-400 px-3 py-1 rounded text-xs hover:bg-gold-500 hover:text-slate-950 transition-colors">
                 Open in Google Maps
               </a>
             </div>

@@ -131,12 +131,6 @@ interface PortfolioItem {
           <div *ngFor="let item of filteredItems()" class="group relative bg-white border border-slate-200 rounded-lg overflow-hidden shadow hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
             <div class="relative overflow-hidden aspect-[4/3] bg-slate-950 shrink-0">
               <img [src]="item.image" [alt]="item.title" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90" />
-              <!-- Hover Overlay -->
-              <div class="absolute inset-0 bg-slate-950/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <span class="px-4 py-2 bg-gold-500 text-slate-950 font-bold uppercase tracking-widest text-[10px] rounded">
-                  View Specifications
-                </span>
-              </div>
             </div>
             
             <div class="p-6 flex-grow space-y-3">

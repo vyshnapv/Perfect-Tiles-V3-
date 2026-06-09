@@ -278,14 +278,14 @@ interface Testimonial {
                   </div>
                   <!-- Control Buttons -->
                   <div class="flex items-center space-x-2">
-                    <button (click)="prevTestimonial()" class="p-2 border border-slate-200 rounded hover:bg-slate-50 text-slate-600 transition-colors" aria-label="Previous Testimonial">
+                    <button (click)="prevTestimonial()" class="p-2 border border-slate-200 rounded hover:bg-slate-50 text-slate-600 transition-colors cursor-pointer" aria-label="Previous Testimonial">
                       <svg class="w-4 h-4 stroke-current fill-none stroke-2" viewBox="0 0 24 24">
-                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                        <path d="M15 19l-7-7 7-7"/>
                       </svg>
                     </button>
-                    <button (click)="nextTestimonial()" class="p-2 border border-slate-200 rounded hover:bg-slate-50 text-slate-600 transition-colors" aria-label="Next Testimonial">
+                    <button (click)="nextTestimonial()" class="p-2 border border-slate-200 rounded hover:bg-slate-50 text-slate-600 transition-colors cursor-pointer" aria-label="Next Testimonial">
                       <svg class="w-4 h-4 stroke-current fill-none stroke-2" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7 7 7"/>
+                        <path d="M9 5l7 7-7 7"/>
                       </svg>
                     </button>
                   </div>
@@ -304,7 +304,7 @@ interface Testimonial {
 
               <!-- Quick details -->
               <div class="space-y-4 my-6">
-                <a href="tel:08460204779" class="flex items-center space-x-3 p-3 bg-white/5 hover:bg-white/10 rounded border border-white/5 transition-colors">
+                <a href="tel:9207045332" class="flex items-center space-x-3 p-3 bg-white/5 hover:bg-white/10 rounded border border-white/5 transition-colors">
                   <div class="p-2 bg-gold-500/20 text-gold-500 rounded">
                     <svg class="w-5 h-5 stroke-current fill-none stroke-2" viewBox="0 0 24 24">
                       <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" stroke-linecap="round" stroke-linejoin="round"/>
@@ -312,11 +312,11 @@ interface Testimonial {
                   </div>
                   <div>
                     <p class="text-[10px] text-slate-400 font-semibold uppercase tracking-wider">Quick Call</p>
-                    <p class="text-sm font-bold text-gold-400">08460204779</p>
+                    <p class="text-sm font-bold text-gold-400">9207045332</p>
                   </div>
                 </a>
                 
-                <a href="https://wa.me/918460204779" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-3 p-3 bg-emerald-500/10 hover:bg-emerald-500/20 rounded border border-emerald-500/25 transition-colors">
+                <a href="https://wa.me/9207045332" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-3 p-3 bg-emerald-500/10 hover:bg-emerald-500/20 rounded border border-emerald-500/25 transition-colors">
                   <div class="p-2 bg-emerald-500/20 text-emerald-400 rounded">
                     <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
                       <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.964 9.964 0 001.37 5.084L2 22l5.094-1.33a9.96 9.96 0 004.912 1.306h.004c5.505 0 9.99-4.478 9.99-9.988 0-2.667-1.04-5.176-2.927-7.062A9.927 9.927 0 0012.012 2zm5.794 14.153c-.253.715-1.47 1.39-2.022 1.488-.5.088-1.15.158-3.36-.757-2.825-1.168-4.647-4.04-4.788-4.23-.14-.19-1.13-1.503-1.13-2.868 0-1.365.714-2.035.968-2.316.254-.28.55-.35.733-.35h.523c.168 0 .39.063.597.568.207.506.713 1.74.776 1.867.062.126.103.273.018.441-.084.168-.126.273-.253.42l-.382.464c-.126.147-.258.307-.11.562.146.252.654 1.077 1.4 1.743.96.857 1.77 1.122 2.022 1.248.253.126.398.105.546-.063.148-.168.63-.736.8-1.01.17-.274.338-.23.568-.147.23.084 1.46.687 1.713.813.253.126.42.19.484.3.063.11.063.633-.19 1.348z"/>

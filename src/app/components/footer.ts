@@ -25,12 +25,12 @@ import { CommonModule } from '@angular/common';
               For over 15 years, we have set the benchmark in premium ceramic, vitrified, and natural stone installations across Kozhikode. Our passion is precision, and our signature is perfection.
             </p>
             <div class="flex items-center space-x-4 pt-2">
-              <a href="tel:08460204779" class="p-2 bg-slate-800 hover:bg-gold-500 hover:text-slate-950 text-gold-500 rounded transition-colors duration-300" aria-label="Call Us">
+              <a href="tel:9207045332" class="p-2 bg-slate-800 hover:bg-gold-500 hover:text-slate-950 text-gold-500 rounded transition-colors duration-300" aria-label="Call Us">
                 <svg class="h-4 w-4 fill-none stroke-current stroke-2" viewBox="0 0 24 24">
                   <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </a>
-              <a href="https://wa.me/918460204779" target="_blank" rel="noopener noreferrer" class="p-2 bg-slate-800 hover:bg-emerald-500 hover:text-white text-emerald-400 rounded transition-colors duration-300" aria-label="WhatsApp Us">
+              <a href="https://wa.me/9207045332" target="_blank" rel="noopener noreferrer" class="p-2 bg-slate-800 hover:bg-emerald-500 hover:text-white text-emerald-400 rounded transition-colors duration-300" aria-label="WhatsApp Us">
                 <svg class="h-4 w-4 fill-current" viewBox="0 0 24 24">
                   <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.964 9.964 0 001.37 5.084L2 22l5.094-1.33a9.96 9.96 0 004.912 1.306h.004c5.505 0 9.99-4.478 9.99-9.988 0-2.667-1.04-5.176-2.927-7.062A9.927 9.927 0 0012.012 2zm5.794 14.153c-.253.715-1.47 1.39-2.022 1.488-.5.088-1.15.158-3.36-.757-2.825-1.168-4.647-4.04-4.788-4.23-.14-.19-1.13-1.503-1.13-2.868 0-1.365.714-2.035.968-2.316.254-.28.55-.35.733-.35h.523c.168 0 .39.063.597.568.207.506.713 1.74.776 1.867.062.126.103.273.018.441-.084.168-.126.273-.253.42l-.382.464c-.126.147-.258.307-.11.562.146.252.654 1.077 1.4 1.743.96.857 1.77 1.122 2.022 1.248.253.126.398.105.546-.063.148-.168.63-.736.8-1.01.17-.274.338-.23.568-.147.23.084 1.46.687 1.713.813.253.126.42.19.484.3.063.11.063.633-.19 1.348z"/>
                 </svg>
@@ -82,14 +82,14 @@ import { CommonModule } from '@angular/common';
                 <svg class="h-5 w-5 text-gold-500 stroke-current stroke-2 fill-none" viewBox="0 0 24 24">
                   <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-                <a href="tel:08460204779" class="hover:text-gold-500 transition-colors duration-300">08460204779</a>
+                <a href="tel:9207045332" class="hover:text-gold-500 transition-colors duration-300">9207045332</a>
               </li>
               <li class="flex items-center space-x-2">
                 <svg class="h-5 w-5 text-gold-500 stroke-current stroke-2 fill-none" viewBox="0 0 24 24">
                   <rect x="2" y="4" width="20" height="16" rx="2" stroke-linecap="round" stroke-linejoin="round"/>
                   <path d="M22 7l-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-                <span>info&#64;perfecttileworks.com</span>
+                <span>coregrid.solutions4@gmail.com</span>
               </li>
             </ul>
           </div>
